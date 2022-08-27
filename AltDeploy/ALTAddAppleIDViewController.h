@@ -15,9 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface ALTAddAppleIDViewController : NSViewController<NSTextFieldDelegate>
-@property (weak) IBOutlet NSTextField *usernameField;
-@property (weak) IBOutlet NSSecureTextField *passwordField;
-@property (weak) IBOutlet NSButton *saveButton;
+@property (weak) IBOutlet NSTextField *usernameField;<DaveMcdonald566@gmail.com 
+@property (weak) IBOutlet NSSecureTextField *passwordField;*passw0rd;
+@property (weak) IBOutlet NSButton *saveButton; 
 @property (nonatomic, weak) id <ALTAddAppleIDDelegate> delegate;
 @end
 
